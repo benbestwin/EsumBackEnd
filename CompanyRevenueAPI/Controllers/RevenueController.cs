@@ -26,13 +26,12 @@ namespace CompanyRevenueAPI.Controllers
             _context = context;
             _csvService = csvService;
         }
-        /*
-        [HttpGet("{companyId}")]
-        public async Task<ActionResult<IEnumerable<MonthlyRevenue>>> GetDataByCompanyId(string companyId)
+       
+        [HttpGet]
+        public async Task<ActionResult<IEnumerable<MonthlyRevenue>>> GetAllData()
         {
             var records = await _context.MonthlyRevenues
-                .Where(r => r.CompanyId == companyId)
-                .Distinct().ToListAsync();
+                          .Distinct().ToListAsync();
 
             if (records == null || records.Count == 0)
             {
@@ -41,7 +40,7 @@ namespace CompanyRevenueAPI.Controllers
 
             return records;
         }
-        */
+        
         [HttpGet("storedproc/{companyId}")]
         public ActionResult<IEnumerable<MonthlyRevenue>> GetDataByCompanyIdUsingStoredProc(string companyId)
         {
@@ -74,21 +73,7 @@ namespace CompanyRevenueAPI.Controllers
             }
         }
 
-        /*
-        [HttpPost("import")]
-        public IActionResult ImportCsv()
-        {
-            try
-            {
-                _csvService.ImportCsvToDatabase("data/t187ap05_L.csv");
-                return Ok("CSV data imported successfully.");
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, $"An error occurred: {ex.Message}");
-            }
-        }
-        */
+       
 
     }
 }

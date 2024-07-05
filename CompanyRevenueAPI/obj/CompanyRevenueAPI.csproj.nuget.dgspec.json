@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj": {}
+    "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj": {
+    "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
         "projectName": "CompanyRevenueAPI",
-        "projectPath": "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
+        "projectPath": "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\obj\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

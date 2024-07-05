@@ -25,6 +25,18 @@ builder.Services.AddSwaggerGen(c =>
 //builder.Services.AddTransient<CsvService>();
 // 注冊服務
 builder.Services.AddScoped<ICsvService, CsvService>();
+
+// 添加 CORS 配置
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader();
+        });
+});
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

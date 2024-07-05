@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Si6+LXz0yzha/4oewpcKBO5LF1n5v0Az8XSQjVI6+ECdsYHEVOERD42PmC/VHTJ2UtZYNcaYGWq7WHmbeU4T0Q==",
+  "dgSpecHash": "B0cJy5Y0Uq4rpHxdn70RsJaydcZeeT/7tduLurUJG18IstzBF9FpU2iULsGopI1m7bB6UbziwHlVgOo+xCcq8g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Esun\\BackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Esun\\EsumBackEnd\\CompanyRevenueAPI\\CompanyRevenueAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

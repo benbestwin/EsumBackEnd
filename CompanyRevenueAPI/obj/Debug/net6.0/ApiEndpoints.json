@@ -1,6 +1,26 @@
 [
   {
     "ContainingType": "CompanyRevenueAPI.Controllers.RevenueController",
+    "Method": "GetAllData",
+    "RelativePath": "api/Revenue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CompanyRevenueAPI.Models.MonthlyRevenue, CompanyRevenueAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CompanyRevenueAPI.Controllers.RevenueController",
     "Method": "ImportCsv",
     "RelativePath": "api/Revenue/import",
     "HttpMethod": "POST",
