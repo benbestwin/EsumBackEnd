@@ -38,7 +38,7 @@ namespace CompanyRevenueAPI.Controllers
                 return NotFound();
             }
 
-            return records;
+            return Ok(records);
         }
         
         [HttpGet("storedproc/{companyId}")]
